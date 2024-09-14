@@ -1,0 +1,13 @@
+@media screen and (max-width: 375px) {
+    main {
+        padding-inline: 18px;
+    }
+
+    .profile-name {
+        font-size: 20px;
+    }
+
+    .profile-profissional-title, .profile-address, .list-item {
+        font-size: 12px;
+    }
+}

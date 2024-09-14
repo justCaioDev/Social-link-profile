@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    font-family: 'Inter';
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 374px;
+    
+    padding: 32px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.profile-address {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: hsl(75, 94%, 57%);
+}
+
+.profile-profissional-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: white;
+    opacity: .8;
+}
+
+.nav-list {
+    width: 100%;
+}
+
+.list-items {
+    list-style: none;
+}
+
+.list-item {
+    font-size: 14px;
+    text-align: center;
+    padding-block: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+    transition: all .3s;
+}
+
+.list-item:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.list-item:focus-within {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.list-item:hover .link, .list-item:focus-within .link {
+    outline: none;
+    border: none;
+    color:  hsl(0, 0%, 8%);
+}
+
+.link {
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .3s;
+    color: white;
+}
