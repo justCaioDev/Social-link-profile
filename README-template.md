@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://justCaioDev.github.io/Social-link-profile/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-and-accessibility-social-link-profile-OTDwpYswko)
+- Live Site URL: (https://justCaioDev.github.io/Social-link-profile/)
 
 ## My process
 
